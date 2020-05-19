@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags  -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -20,10 +20,34 @@
 
             <aside class="col-md-4 blog-sidebar bg-dark">
                 <h3 class="text-light text-center p-3">Form Elements</h3>
+
+                <div class="draggable-wrapper p-3 bg-primary">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Text Input">
+                </div>
+
+                <div class="draggable-wrapper p-3 bg-primary" >
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+
+                <div  class="draggable-wrapper p-3 bg-primary">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="draggable-wrapper p-3 bg-primary">
+                  <input type="range" class="form-control-range" id="formControlRange">
+                </div>
+
             </aside>
 
-            <div class="col-md-8 canvas-main">
-
+            <div class="col-md-8" id="form-canvas">
+              <h3 class="text-dark d-inline">Build Your Form Here</h3>
+              <button id="save-form" class="btn btn-primary float-right d-inline">Save Form</button>
             </div>
   
  
